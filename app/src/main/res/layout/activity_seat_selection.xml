@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5">
+
+        <Button
+            android:id="@+id/A1"
+            android:text="A1"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/A2"
+            android:text="A2"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/A3"
+            android:text="A3"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/A4"
+            android:text="A4"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/A5"
+            android:text="A5"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/B1"
+            android:text="B1"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/B2"
+            android:text="B2"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/B3"
+            android:text="B3"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/B4"
+            android:text="B4"
+            style="@style/SeatButton"/>
+
+        <Button
+            android:id="@+id/B5"
+            android:text="B5"
+            style="@style/SeatButton"/>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: ₹0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/bookBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎟 Book Now"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
